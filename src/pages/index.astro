@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { Image } from 'astro:assets';
+import localBirdImage from '../assets/jup.jpg';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -20,7 +21,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				¡La frase "la basura de algunos es el oro de otros" resulto ser literal!
 				Con nuestro logo basado en la forma (similar a al típico ícono de reciclaje) de la mancha de Jupiter, una tormenta conocida desde ya mucho tiempo reciclamos, reducimos y reutilizamos.
 			</p>
-			<img src={"src/assets/jup.jpg"} alt="" />
+			<Image src={localBirdImage} alt="" />
 			
 		
 			
