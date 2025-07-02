@@ -5,7 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://extrasonoro9.github.io/vortice/',
-	base: 'main',
+	site: 'https://extrasonoro9.github.io/vorticerecicladora/',
+	base: '',
 	integrations: [mdx(), sitemap()],
 });
+
